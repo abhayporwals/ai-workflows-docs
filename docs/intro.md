@@ -81,7 +81,7 @@ This cutting-edge release introduces the future of AI:
 
 ## Quick Start
 
-Ready to begin your AI journey? Start with our [Getting Started tutorial](./tutorials/getting-started.md) to set up your development environment and build your first AI model.
+Ready to begin your AI journey? Start with our core concepts and tools to set up your development environment and build your first AI model.
 
 ## Version Information
 
@@ -94,10 +94,10 @@ Ready to begin your AI journey? Start with our [Getting Started tutorial](./tuto
 
 This documentation covers multiple versions:
 
-- **[v2.5 (Current)](./intro.md)** - Latest with quantum ML and neuromorphic computing
-- **[v2.0](./2.0/intro.md)** - Advanced AI with real-time inference and edge AI
-- **[v1.5](./1.5/intro.md)** - MLOps and cloud integration
-- **[v1.0](./1.0/intro.md)** - Initial release with core features
+- **v2.5 (Current)** - Latest with quantum ML and neuromorphic computing
+- **v2.0** - Advanced AI with real-time inference and edge AI
+- **v1.5** - MLOps and cloud integration
+- **v1.0** - Initial release with core features
 
 ## Migration from Previous Versions
 

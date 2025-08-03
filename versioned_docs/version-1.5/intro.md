@@ -53,7 +53,7 @@ This release adds significant new features:
 
 ## Quick Start
 
-Ready to begin your AI journey? Start with our [Getting Started tutorial](./tutorials/getting-started.md) to set up your development environment and build your first AI model.
+Ready to begin your AI journey? Start with our core concepts and tools to set up your development environment and build your first AI model.
 
 ## Version Information
 
@@ -81,4 +81,4 @@ In future versions, we'll be adding:
 
 ---
 
-*This is version 1.5 of AI Workflows & Tools. For the latest features, check out our [current version](../intro.md).*
+*This is version 1.5 of AI Workflows & Tools - introducing MLOps and cloud integration.*
