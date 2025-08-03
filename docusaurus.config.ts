@@ -1,5 +1,5 @@
-import {themes as prismThemes} from 'prism-react-renderer';
-import type {Config} from '@docusaurus/types';
+import { themes as prismThemes } from 'prism-react-renderer';
+import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
@@ -8,7 +8,7 @@ const config: Config = {
   favicon: 'img/favicon.ico',
   url: 'https://your-ai-workflows-docs.example.com',
   baseUrl: '/',
-  organizationName: 'abhaporwals',
+  organizationName: 'abhayporwals',
   projectName: 'ai-workflows-docs',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -22,7 +22,7 @@ const config: Config = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.ts'),
-          editUrl: 'https://github.com/abhaporwals/ai-workflows-docs/tree/main/',
+          editUrl: 'https://github.com/abhayporwals/ai-workflows-docs/tree/main/',
           versions: {
             current: {
               label: '2.5',
@@ -32,7 +32,7 @@ const config: Config = {
         },
         blog: {
           showReadingTime: true,
-          editUrl: 'https://github.com/abhaporwals/ai-workflows-docs/tree/main/',
+          editUrl: 'https://github.com/abhayporwals/ai-workflows-docs/tree/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -84,15 +84,15 @@ const config: Config = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/abhaporwals/ai-workflows-docs',
+              href: 'https://github.com/abhayporwals/ai-workflows-docs',
             },
             {
               label: 'Discussions',
-              href: 'https://github.com/abhaporwals/ai-workflows-docs/discussions',
+              href: 'https://github.com/abhayporwals/ai-workflows-docs/discussions',
             },
             {
               label: 'Issues',
-              href: 'https://github.com/abhaporwals/ai-workflows-docs/issues',
+              href: 'https://github.com/abhayporwals/ai-workflows-docs/issues',
             },
           ],
         },
@@ -103,7 +103,7 @@ const config: Config = {
           items: [
             {
               label: 'Releases',
-              href: 'https://github.com/abhaporwals/ai-workflows-docs/releases',
+              href: 'https://github.com/abhayporwals/ai-workflows-docs/releases',
             },
             {
               label: 'Contributing',
@@ -150,11 +150,11 @@ const config: Config = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/abhaporwals/ai-workflows-docs',
+              href: 'https://github.com/abhayporwals/ai-workflows-docs',
             },
             {
               label: 'Discussions',
-              href: 'https://github.com/abhaporwals/ai-workflows-docs/discussions',
+              href: 'https://github.com/abhayporwals/ai-workflows-docs/discussions',
             },
             {
               label: 'Contributing',
@@ -162,7 +162,7 @@ const config: Config = {
             },
             {
               label: 'Releases',
-              href: 'https://github.com/abhaporwals/ai-workflows-docs/releases',
+              href: 'https://github.com/abhayporwals/ai-workflows-docs/releases',
             },
           ],
         },

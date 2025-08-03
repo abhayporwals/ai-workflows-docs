@@ -157,8 +157,8 @@ When contributing to the documentation, please update this changelog with:
 
 For questions about version changes or migration assistance:
 
-- **GitHub Issues**: [Report bugs or request features](https://github.com/abhaporwals/ai-workflows-docs/issues)
-- **Discussions**: [Community support](https://github.com/abhaporwals/ai-workflows-docs/discussions)
+- **GitHub Issues**: [Report bugs or request features](https://github.com/abhayporwals/ai-workflows-docs/issues)
+- **Discussions**: [Community support](https://github.com/abhayporwals/ai-workflows-docs/discussions)
 - **Email**: [Direct support](mailto:support@ai-workflows-docs.com)
 
 ---

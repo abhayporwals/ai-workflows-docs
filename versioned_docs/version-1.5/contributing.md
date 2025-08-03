@@ -56,7 +56,7 @@ Before contributing, ensure you have:
 
 ```bash
 # Clone the repository
-git clone https://github.com/abhaporwals/ai-workflows-docs.git
+git clone https://github.com/abhayporwals/ai-workflows-docs.git
 cd ai-workflows-docs
 
 # Install dependencies
@@ -422,14 +422,14 @@ Closes #123
 - **Email**: Contact maintainers directly for urgent issues
 
 ### Community Channels
-- **GitHub Issues**: [Report bugs and request features](https://github.com/abhaporwals/ai-workflows-docs/issues)
-- **GitHub Discussions**: [Ask questions and share ideas](https://github.com/abhaporwals/ai-workflows-docs/discussions)
+- **GitHub Issues**: [Report bugs and request features](https://github.com/abhayporwals/ai-workflows-docs/issues)
+- **GitHub Discussions**: [Ask questions and share ideas](https://github.com/abhayporwals/ai-workflows-docs/discussions)
 - **Slack**: [Join our community](https://ai-workflows-docs.slack.com)
 
 ## Recognition
 
 ### Contributors
-We recognize all contributors in our [contributors file](https://github.com/abhaporwals/ai-workflows-docs/blob/main/CONTRIBUTORS.md).
+We recognize all contributors in our [contributors file](https://github.com/abhayporwals/ai-workflows-docs/blob/main/CONTRIBUTORS.md).
 
 ### Hall of Fame
 Special recognition for significant contributions:
