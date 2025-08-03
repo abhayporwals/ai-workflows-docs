@@ -1,0 +1,328 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-focused websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #2563eb;
+  --ifm-color-primary-dark: #1d4ed8;
+  --ifm-color-primary-darker: #1e40af;
+  --ifm-color-primary-darkest: #1e3a8a;
+  --ifm-color-primary-light: #3b82f6;
+  --ifm-color-primary-lighter: #60a5fa;
+  --ifm-color-primary-lightest: #93c5fd;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  
+  /* Custom variables */
+  --ifm-font-family-base: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  --ifm-heading-font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  --ifm-font-size-base: 16px;
+  --ifm-line-height-base: 1.6;
+  
+  /* Spacing */
+  --ifm-spacing-horizontal: 1.5rem;
+  --ifm-spacing-vertical: 2rem;
+  
+  /* Colors */
+  --ifm-background-color: #ffffff;
+  --ifm-background-surface-color: #f8fafc;
+  --ifm-color-emphasis-100: #f1f5f9;
+  --ifm-color-emphasis-200: #e2e8f0;
+  --ifm-color-emphasis-300: #cbd5e1;
+  --ifm-color-emphasis-400: #94a3b8;
+  --ifm-color-emphasis-500: #64748b;
+  --ifm-color-emphasis-600: #475569;
+  --ifm-color-emphasis-700: #334155;
+  --ifm-color-emphasis-800: #1e293b;
+  --ifm-color-emphasis-900: #0f172a;
+  
+  /* Code blocks */
+  --ifm-color-success: #10b981;
+  --ifm-color-info: #3b82f6;
+  --ifm-color-warning: #f59e0b;
+  --ifm-color-danger: #ef4444;
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #60a5fa;
+  --ifm-color-primary-dark: #3b82f6;
+  --ifm-color-primary-darker: #2563eb;
+  --ifm-color-primary-darkest: #1d4ed8;
+  --ifm-color-primary-light: #93c5fd;
+  --ifm-color-primary-lighter: #bfdbfe;
+  --ifm-color-primary-lightest: #dbeafe;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  
+  /* Dark mode colors */
+  --ifm-background-color: #0f172a;
+  --ifm-background-surface-color: #1e293b;
+  --ifm-color-emphasis-100: #1e293b;
+  --ifm-color-emphasis-200: #334155;
+  --ifm-color-emphasis-300: #475569;
+  --ifm-color-emphasis-400: #64748b;
+  --ifm-color-emphasis-500: #94a3b8;
+  --ifm-color-emphasis-600: #cbd5e1;
+  --ifm-color-emphasis-700: #e2e8f0;
+  --ifm-color-emphasis-800: #f1f5f9;
+  --ifm-color-emphasis-900: #f8fafc;
+}
+
+/* Import Inter font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+/* Base styles */
+html {
+  font-family: var(--ifm-font-family-base);
+  font-size: var(--ifm-font-size-base);
+  line-height: var(--ifm-line-height-base);
+}
+
+body {
+  font-family: var(--ifm-font-family-base);
+  color: var(--ifm-color-emphasis-800);
+  background-color: var(--ifm-background-color);
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--ifm-heading-font-family);
+  font-weight: 600;
+  line-height: 1.25;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: var(--ifm-color-emphasis-900);
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 2rem;
+  border-bottom: 2px solid var(--ifm-color-emphasis-200);
+  padding-bottom: 0.5rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+}
+
+/* Navigation */
+.navbar {
+  background-color: var(--ifm-background-color);
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+.navbar__brand {
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+
+.navbar__link {
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.navbar__link:hover {
+  color: var(--ifm-color-primary);
+}
+
+/* Sidebar */
+.theme-doc-sidebar-container {
+  border-right: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.theme-doc-sidebar-item-category-level-1 > .theme-doc-sidebar-item-link > .theme-doc-sidebar-item-link-level-1 {
+  font-weight: 600;
+  color: var(--ifm-color-emphasis-700);
+}
+
+.theme-doc-sidebar-item-category-level-1 > .theme-doc-sidebar-item-category > .theme-doc-sidebar-item-category-level-2 > .theme-doc-sidebar-item-link > .theme-doc-sidebar-item-link-level-2 {
+  font-weight: 500;
+}
+
+/* Content */
+.theme-doc-markdown {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+/* Code blocks */
+.prism-code {
+  font-family: 'JetBrains Mono', 'Fira Code', 'Monaco', 'Consolas', 'Liberation Mono', 'Courier New', monospace;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  border-radius: 0.5rem;
+  border: 1px solid var(--ifm-color-emphasis-200);
+}
+
+/* Inline code */
+code {
+  font-family: 'JetBrains Mono', 'Fira Code', 'Monaco', 'Consolas', 'Liberation Mono', 'Courier New', monospace;
+  font-size: 0.875em;
+  background-color: var(--ifm-color-emphasis-100);
+  padding: 0.125rem 0.25rem;
+  border-radius: 0.25rem;
+  color: var(--ifm-color-emphasis-800);
+}
+
+/* Admonitions */
+.admonition {
+  border-radius: 0.5rem;
+  border: 1px solid;
+  margin: 1.5rem 0;
+}
+
+.admonition-note {
+  border-color: var(--ifm-color-info);
+  background-color: rgba(59, 130, 246, 0.1);
+}
+
+.admonition-tip {
+  border-color: var(--ifm-color-success);
+  background-color: rgba(16, 185, 129, 0.1);
+}
+
+.admonition-warning {
+  border-color: var(--ifm-color-warning);
+  background-color: rgba(245, 158, 11, 0.1);
+}
+
+.admonition-danger {
+  border-color: var(--ifm-color-danger);
+  background-color: rgba(239, 68, 68, 0.1);
+}
+
+/* Buttons */
+.button {
+  font-weight: 500;
+  border-radius: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  transition: all 0.2s ease;
+}
+
+.button--primary {
+  background-color: var(--ifm-color-primary);
+  border-color: var(--ifm-color-primary);
+}
+
+.button--primary:hover {
+  background-color: var(--ifm-color-primary-dark);
+  border-color: var(--ifm-color-primary-dark);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
+}
+
+/* Cards */
+.card {
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 0.75rem;
+  background-color: var(--ifm-background-surface-color);
+  transition: all 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Tables */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1.5rem 0;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  border: 1px solid var(--ifm-color-emphasis-200);
+}
+
+th {
+  background-color: var(--ifm-color-emphasis-100);
+  font-weight: 600;
+  text-align: left;
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+}
+
+td {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+}
+
+tr:last-child td {
+  border-bottom: none;
+}
+
+/* Footer */
+.footer {
+  background-color: var(--ifm-background-surface-color);
+  border-top: 1px solid var(--ifm-color-emphasis-200);
+  padding: 2rem 0;
+  margin-top: 4rem;
+}
+
+/* Search */
+.theme-search-bar {
+  border-radius: 0.5rem;
+  border: 1px solid var(--ifm-color-emphasis-300);
+}
+
+.theme-search-bar:focus-within {
+  border-color: var(--ifm-color-primary);
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+}
+
+/* Version selector */
+.theme-version-nav {
+  border-radius: 0.5rem;
+  border: 1px solid var(--ifm-color-emphasis-200);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .theme-doc-markdown {
+    padding: 1rem 0;
+  }
+  
+  h1 {
+    font-size: 2rem;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+  }
+  
+  h3 {
+    font-size: 1.25rem;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--ifm-color-emphasis-100);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--ifm-color-emphasis-300);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--ifm-color-emphasis-400);
+}

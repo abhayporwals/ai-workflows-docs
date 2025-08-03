@@ -1,0 +1,34 @@
+{
+  "mainSidebar": [
+    "intro",
+    {
+      "type": "category",
+      "label": "Concepts",
+      "items": [
+        "concepts/overview"
+      ]
+    },
+    {
+      "type": "category",
+      "label": "Tutorials",
+      "items": [
+        "tutorials/getting-started"
+      ]
+    },
+    {
+      "type": "category",
+      "label": "Tools",
+      "items": [
+        "tools/overview"
+      ]
+    },
+    {
+      "type": "category",
+      "label": "Reference",
+      "items": [
+        "changelog",
+        "contributing"
+      ]
+    }
+  ]
+}
